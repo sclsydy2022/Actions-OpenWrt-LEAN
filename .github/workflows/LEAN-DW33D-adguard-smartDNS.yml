@@ -21,8 +21,8 @@ env:
   REPO_BRANCH: master
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: LEAN-DW33D-adguard-smartDNS.config
-  DIY_P1_SH: LEAN-part1.sh
-  DIY_P2_SH: LEAN-part2.sh
+  DIY_P1_SH: DW33D-part1.sh
+  DIY_P2_SH: DW33D-part2.sh
   UPLOAD_BIN_DIR: false
   UPLOAD_FIRMWARE: true
   UPLOAD_RELEASE: true
