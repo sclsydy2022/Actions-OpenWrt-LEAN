@@ -23,7 +23,7 @@ sed -i 's/luci-theme-bootstrap/luci-theme-bootstrap-mod/g' feeds/luci/collection
 # 安装luci-app-smartdns和luci-app-adguardhome
 rm -rf feeds/luci/applications/luci-app-smartdns
 rm -rf feeds/luci/applications/luci-app-adguardhome
-git clone https://github.com/sclsydy2022/luci-app-smartdns feeds/luci/applications/luci-app-smartdns
+git clone https://github.com/sclsydy2022/luci-app-smartdns.git feeds/luci/applications/luci-app-smartdns
 git clone https://github.com/leshanydy2022/luci-app-adguardhome.git package/lean/luci-app-adguardhome
 
 # 为adguardhome插件更换最新的版本
