@@ -35,7 +35,7 @@ rm -rf feeds/packages/net/smartdns
 git clone https://github.com/sclsydy2022/smartdns feeds/packages/net/smartdns
 
 # Modify hostname
-sed -i 's/OpenWrt/LEAN-YDY/g' package/base-files/files/bin/config_generate
+sed -i 's/LEDE/LEAN-YDY/g' package/base-files/files/bin/config_generate
 
 # Modify filename, add date prefix
 sed -i 's/IMG_PREFIX:=/IMG_PREFIX:=$(shell date +"%Y%m%d")-/1' include/image.mk
