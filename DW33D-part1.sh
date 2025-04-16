@@ -13,7 +13,7 @@
 # Uncomment a feed source
 sed -i '/;openwrt-23.05/d' feeds.conf.default
 sed -i 's/^#\(.*luci\)/\1/' feeds.conf.default
-sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
+# sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
 # Add a feed source
 # echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
